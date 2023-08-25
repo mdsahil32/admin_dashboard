@@ -1,0 +1,28 @@
+.adminDashboard {
+    background-color:  #00001a ;
+}
+
+.adminDashboard .dashboard_name {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.adminDashboard  h3 {
+    padding: 0 24px;
+}
+
+.dashboard_name p:hover {
+   color: rgb(52, 52, 58);
+}
+.line{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.data {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 2px solid white;
+}

@@ -1,0 +1,9 @@
+.myStyledDiv {
+  font-size: 26px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  
+}

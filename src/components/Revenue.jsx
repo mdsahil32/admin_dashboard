@@ -8,6 +8,7 @@ import {
     Tooltip,
     Legend
 } from "recharts";
+import './style.css'
 
 const Revenue = () => {
     const data = [
@@ -31,11 +32,11 @@ const Revenue = () => {
         },
     ];
     return (
-        < div >
-        <h1>Revenue</h1>
+        < div className='revenue'>
+        <h1>Revenue Generated</h1>
             <LineChart
-                width={500}
-                height={300}
+                width={900}
+                height={500}
                 data={data}
                 margin={{
                     top: 5,
@@ -52,19 +53,19 @@ const Revenue = () => {
                 <Line
                     type="monotone"
                     dataKey="pv"
-                    stroke="#8884d8"
+                    stroke="blue"
                     strokeDasharray="5 5"
                 />
                 <Line
                     type="monotone"
                     dataKey="uv"
-                    stroke="#82ca9d"
+                    stroke="green"
                     strokeDasharray="3 4 5 2"
                 />
                 <Line
                     type="monotone"
                     dataKey="amt"
-                    stroke="#00001a"
+                    stroke="red"
                     strokeDasharray="3 4 5 2"
                 />
             </LineChart>

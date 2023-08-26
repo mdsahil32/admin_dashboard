@@ -1,6 +1,6 @@
 import React from 'react';
 import './dashboard.css'
-import { FaBoxOpen, FaShoppingCart } from "react-icons/fa";
+import { FaBoxOpen, FaExclamationTriangle, FaShoppingCart } from "react-icons/fa";
 import Revenue from '../components/Revenue';
 import Sales from '../components/sales';
 import Recent_transac from '../components/Recent_transac';
@@ -42,7 +42,7 @@ const Dashboard = () => {
                             <h3>inventory alerts </h3>
                             <h2>24</h2>
                         </div>
-                        <h1>icon</h1>
+                        <h1><FaExclamationTriangle></FaExclamationTriangle></h1>
                     </div>
                 </div>
 

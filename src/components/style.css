@@ -1,15 +1,24 @@
-.recent{
+.recent {
     background-color: white;
     padding: 34px;
 }
-.recent .id{
+
+.recent .id {
     display: flex;
     gap: 30px;
     border-bottom: 4px solid #00001a;
 }
-.recent .id  h3{
+
+.recent .id h3 {
     color: white;
-    padding: 8px 6px ;
+    padding: 8px 6px;
     border-radius: 4px;
     background-color: #00001a;
+}
+
+.revenue {
+    color: white;
+    text-align: center;
+    background-color: #00001a;
+    padding: 12px ;
 }

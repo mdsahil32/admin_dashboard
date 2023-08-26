@@ -10,6 +10,7 @@ import Admin from './Admin_dashboard/Admin.jsx';
 import Manage from './manage_team/Manage.jsx';
 import Contact from './Contact/Contact.jsx';
 import Invoices_balance from './Invoices/Invoices_balance.jsx';
+import Breakdown from './breakdown/Breakdown.jsx';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: '/invoices',
         element: <Invoices_balance></Invoices_balance>
+      },
+      {
+        path: '/breakdown',
+        element:<Breakdown></Breakdown>
       }
       
     ])

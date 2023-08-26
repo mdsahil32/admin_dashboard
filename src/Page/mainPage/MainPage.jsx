@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './mainPage.css'
-import { FaFileInvoice, FaHome, FaInfoCircle, FaUserFriends } from 'react-icons/fa';
+import { FaChartPie, FaFileInvoice, FaHome, FaInfoCircle, FaUserFriends } from 'react-icons/fa';
 import Profile from '../../components/profile';
 
 const MainPage = () => {
@@ -66,6 +66,20 @@ const MainPage = () => {
                     }}
                 >
                     <h4 className='line'><FaFileInvoice></FaFileInvoice><span>Invoices Balances</span></h4>
+                </NavLink>
+            </>
+            <>
+                <NavLink
+                    className='dashboard_name'
+                    to='/breakdown'
+                    style={({ isActive }) => {
+                        return {
+                            color: isActive ? "rgb(52, 52, 58)" : "",
+                            padding: isActive ? "0 44px 0 44px" : "",
+                        };
+                    }}
+                >
+                    <h4 className='line'><FaChartPie></FaChartPie><span>BreakDown</span></h4>
                 </NavLink>
             </>
 

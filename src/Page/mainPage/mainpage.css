@@ -1,5 +1,5 @@
 .adminDashboard {
-    background-color:  #00001a ;
+    background-color: #00001a;
 }
 
 .adminDashboard .dashboard_name {
@@ -9,18 +9,20 @@
     font-size: 18px;
 }
 
-.adminDashboard  h3 {
+.adminDashboard h4 {
     padding: 0 24px;
 }
 
 .dashboard_name p:hover {
-   color: rgb(52, 52, 58);
+    color: rgb(52, 52, 58);
 }
-.line{
+
+.line {
     display: flex;
     gap: 5px;
     align-items: center;
 }
+
 .data {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

@@ -33,7 +33,7 @@ const Revenue = () => {
     ];
     return (
         < div className='revenue'>
-        <h1>Revenue Generated</h1>
+            <h1>Revenue Generated</h1>
             <LineChart
                 width={900}
                 height={500}

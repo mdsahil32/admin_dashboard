@@ -6,8 +6,7 @@ import { Outlet } from 'react-router-dom';
 const Admin = () => {
     return (
         <>
-            <h3 className="myStyledDiv">Admin Dashboard</h3>
-            <div className='container'>
+            <div className='container '>
                 <MainPage></MainPage>
                 <Outlet></Outlet>
             </div>

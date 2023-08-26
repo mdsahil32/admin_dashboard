@@ -72,6 +72,50 @@ const Invoices_balance = () => {
                     <p>20.03.2023</p>
                 </div>
             </div>
+            <div className='team'>
+                <div className='invoice'>
+                    <input type="checkbox" name="" id="" />
+                    <h3>6</h3>
+                    <h3>Tyson</h3>
+                    <h3>+00 177 5113</h3>
+                    <h3>tyson@gmail.com</h3>
+                    <h3>$15.1</h3>
+                    <p>20.03.2023</p>
+                </div>
+            </div>
+            <div className='team'>
+                <div className='invoice'>
+                    <input type="checkbox" name="" id="" />
+                    <h3>7</h3>
+                    <h3>Tyson</h3>
+                    <h3>+00 177 5113</h3>
+                    <h3>tyson@gmail.com</h3>
+                    <h3>$15.1</h3>
+                    <p>20.03.2023</p>
+                </div>
+            </div>
+            <div className='team'>
+                <div className='invoice'>
+                    <input type="checkbox" name="" id="" />
+                    <h3>8</h3>
+                    <h3>Tyson</h3>
+                    <h3>+00 177 5113</h3>
+                    <h3>tyson@gmail.com</h3>
+                    <h3>$15.1</h3>
+                    <p>20.03.2023</p>
+                </div>
+            </div>
+            <div className='team'>
+                <div className='invoice'>
+                    <input type="checkbox" name="" id="" />
+                    <h3>9</h3>
+                    <h3>Tyson</h3>
+                    <h3>+00 177 5113</h3>
+                    <h3>tyson@gmail.com</h3>
+                    <h3>$15.1</h3>
+                    <p>20.03.2023</p>
+                </div>
+            </div>
         </div>
     );
 };

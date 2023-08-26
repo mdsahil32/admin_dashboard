@@ -22,3 +22,16 @@
     background-color: #00001a;
     padding: 12px ;
 }
+
+.img {
+    width: 90px;
+    height: 90px;
+    border-radius: 300px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.name{
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

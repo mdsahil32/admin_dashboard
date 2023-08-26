@@ -97,6 +97,45 @@ const Contact = () => {
                     <h4>1563</h4>
                 </div>
             </div>
+            <div className='team'>
+                <div className='contant_data'>
+                    <h4>7</h4>
+                    <h4>17434</h4>
+                    <h4>Luis</h4>
+                    <h4>28</h4>
+                    <h4>+00 221 122</h4>
+                    <h4>Luis@gmail.com</h4>
+                    <h4>Rola, 2112</h4>
+                    <h4>London</h4>
+                    <h4>1563</h4>
+                </div>
+            </div>
+            <div className='team'>
+                <div className='contant_data'>
+                    <h4>8</h4>
+                    <h4>17434</h4>
+                    <h4>Luis</h4>
+                    <h4>28</h4>
+                    <h4>+00 221 122</h4>
+                    <h4>Luis@gmail.com</h4>
+                    <h4>Rola, 2112</h4>
+                    <h4>London</h4>
+                    <h4>1563</h4>
+                </div>
+            </div>
+            <div className='team'>
+                <div className='contant_data'>
+                    <h4>9</h4>
+                    <h4>17434</h4>
+                    <h4>Luis</h4>
+                    <h4>28</h4>
+                    <h4>+00 221 122</h4>
+                    <h4>Luis@gmail.com</h4>
+                    <h4>Rola, 2112</h4>
+                    <h4>London</h4>
+                    <h4>1563</h4>
+                </div>
+            </div>
         </div>
     );
 };

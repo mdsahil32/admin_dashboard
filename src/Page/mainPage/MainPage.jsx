@@ -2,12 +2,13 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './mainPage.css'
 import { FaFileInvoice, FaHome, FaInfoCircle, FaUserFriends } from 'react-icons/fa';
+import Profile from '../../components/profile';
 
 const MainPage = () => {
     return (
         <div className='adminDashboard'>
-
-            <h3>
+            <Profile></Profile>
+            <>
                 <NavLink
                     className='dashboard_name'
                     to='/dashboard'
@@ -18,11 +19,11 @@ const MainPage = () => {
                         };
                     }}
                 >
-                    <div className='line'><FaHome></FaHome><p>Dashboard</p></div>
+                    <h4 className='line'><FaHome></FaHome><span>Dashboard</span></h4>
                 </NavLink>
-            </h3>
-            <h3 className='data'>Data</h3>
-            <h3>
+            </>
+            <h4 className='data'>Data</h4>
+            <>
                 <NavLink
                     className='dashboard_name'
                     to='/manage_team'
@@ -33,11 +34,11 @@ const MainPage = () => {
                         };
                     }}
                 >
-                    <div className='line'><FaUserFriends></FaUserFriends><p>Manage Team</p></div>
+                    <h4 className='line'><FaUserFriends></FaUserFriends><span>Manage Team</span></h4>
                 </NavLink>
-            </h3>
+            </>
 
-            <h3>
+            <>
                 <NavLink
                     className='dashboard_name'
                     to='/contact'
@@ -48,12 +49,12 @@ const MainPage = () => {
                         };
                     }}
                 >
-                    <div className='line'><FaInfoCircle></FaInfoCircle><p>Contacts Information</p></div>
+                    <h4 className='line'><FaInfoCircle></FaInfoCircle><span>Contacts Information</span></h4>
                 </NavLink>
-            </h3>
+            </>
 
 
-            <h3>
+            <>
                 <NavLink
                     className='dashboard_name'
                     to='/invoices'
@@ -64,9 +65,10 @@ const MainPage = () => {
                         };
                     }}
                 >
-                    <div className='line'><FaFileInvoice></FaFileInvoice><p>Invoices Balances</p></div>
+                    <h4 className='line'><FaFileInvoice></FaFileInvoice><span>Invoices Balances</span></h4>
                 </NavLink>
-            </h3>
+            </>
+
         </div>
     );
 };

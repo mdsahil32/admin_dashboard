@@ -12,7 +12,7 @@ const Sales = () => {
                 <XAxis dataKey="name" stroke="#00001a" />
                 <YAxis />
                 <Tooltip wrapperStyle={{ width: 100, backgroundColor: '#ccc' }} />
-                <Legend width={100} wrapperStyle={{ top: 40, right: 20, backgroundColor: '#f5f5f5', border: '1px solid #00001a', borderRadius: 3, lineHeight: '40px' }} />
+                <Legend width={100} wrapperStyle={{ top: 40, right: 20, backgroundColor: '#f5f5f5', border: '1px solid #f5f5f5', borderRadius: 3, lineHeight: '40px' }} />
                 <CartesianGrid stroke="#00001a" strokeDasharray="5 5" />
                 <Bar dataKey="uv" fill="#00001a" barSize={30} />
             </BarChart>

@@ -11,6 +11,7 @@ import Manage from './manage_team/Manage.jsx';
 import Contact from './Contact/Contact.jsx';
 import Invoices_balance from './Invoices/Invoices_balance.jsx';
 import Breakdown from './breakdown/Breakdown.jsx';
+import Profile from './profile/Profile.jsx';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: '/breakdown',
         element:<Breakdown></Breakdown>
+      }, 
+      {
+        path: '/profile',
+        element: <Profile></Profile>
       }
       
     ])

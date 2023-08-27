@@ -1,0 +1,56 @@
+.head {
+   
+    gap: 15px;
+    background-color: #00001a;    
+}
+.headData{
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    align-items: end;
+}
+.title{
+    justify-content: start;
+    color: white;
+}
+
+.profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 300px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.bell{
+    color: white;
+}
+
+/* Styling for the dropdown options */
+.dropdown-content {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #00001a;
+  padding-left: 12px;
+  padding-right: 7px;
+}
+
+/* Styling for the dropdown option items */
+.dropdown-option {
+  cursor: pointer;
+}
+.dropdown-content .dropdown-option {
+
+    text-decoration: none;
+    color: white;
+}
+.dropdown-content .dropdown-option:hover{
+    color: gray;
+}
+
+/* Styling for the image */
+.clickable-image {
+  cursor: pointer;
+}

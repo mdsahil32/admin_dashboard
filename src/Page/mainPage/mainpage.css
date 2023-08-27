@@ -1,4 +1,5 @@
 .adminDashboard {
+    width: 20em;
     background-color: #00001a;
 }
 
@@ -8,14 +9,14 @@
     color: white;
     font-size: 18px;
 }
+.dashboard_name:hover{
+    color: gray;
+}
 
 .adminDashboard h4 {
     padding: 0 24px;
 }
 
-.dashboard_name p:hover {
-    color: rgb(52, 52, 58);
-}
 
 .line {
     display: flex;

@@ -2,12 +2,12 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './mainPage.css'
 import { FaChartPie, FaFileInvoice, FaHome, FaInfoCircle, FaUserFriends } from 'react-icons/fa';
-import Profile from '../../components/profile';
+import PersonImg from '../../components/personImg';
 
 const MainPage = () => {
     return (
         <div className='adminDashboard'>
-            <Profile></Profile>
+            <PersonImg></PersonImg>
             <>
                 <NavLink
                     className='dashboard_name'

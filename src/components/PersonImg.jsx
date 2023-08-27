@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Profile = () => {
+const PersonImg = () => {
     return (
         <div>
             <h3 className='name'>Admin Dashboard</h3>
@@ -10,4 +10,4 @@ const Profile = () => {
     );
 };
 
-export default Profile;
+export default PersonImg;

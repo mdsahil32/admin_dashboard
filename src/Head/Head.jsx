@@ -14,9 +14,7 @@ const Head = () => {
     return (
 
         <div className='head'>
-            <div>
-                <h1>Company Name</h1>
-            </div>
+                <h2 className='company'>Company Name</h2>
             <div className='headData'>
                 <h1 className='bell'>
                     <FaRegBell></FaRegBell>
